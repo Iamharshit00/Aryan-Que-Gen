@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f8f6ff">
   <meta name="description" content="Study Quiz turns any subject and topic into an AI-powered multiple-choice quiz with timed questions, instant results, and answer explanations.">
+  <meta name="author" content="Aryan Chaudary">
   <title>Study Quiz — Learn Smarter, Test Yourself Better!</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -637,6 +638,22 @@
     }
     .footer-brand { display: flex; flex-direction: column; gap: 4px; }
     .footer-brand strong { color: var(--text-soft); font-family: var(--font-display); font-size: 0.82rem; letter-spacing: -0.02em; }
+    .footer-credit {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      width: fit-content;
+      margin-top: 5px;
+      padding: 4px 9px;
+      border: 1px solid rgba(98, 71, 237, 0.14);
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary-strong);
+      font-size: 0.72rem;
+      font-weight: 750;
+      letter-spacing: 0.01em;
+    }
+    .footer-credit .svg-icon { width: 13px; height: 13px; }
     .footer-note { max-width: 450px; line-height: 1.55; }
     .footer-links { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
     .footer-links button { min-height: 40px; display: inline-flex; align-items: center; padding: 0 4px; border: 0; background: none; color: var(--muted); font-size: inherit; font-weight: 650; }
@@ -1568,6 +1585,7 @@
   <footer class="site-footer">
     <div class="footer-brand">
       <strong>Study Quiz</strong>
+      <span class="footer-credit"><svg class="svg-icon" aria-hidden="true"><use href="#i-sparkles"></use></svg> Made by Aryan Chaudary</span>
       <span class="footer-note">Built for curious minds. AI-generated questions may occasionally contain errors, so verify important facts.</span>
     </div>
     <div class="footer-links">
